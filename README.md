@@ -28,12 +28,16 @@ in my case the arduino board in plugged on port10 and the baud rate is 9600,so m
 
 **current visualisation**
 ![current](https://user-images.githubusercontent.com/40913019/47537040-7cdad400-d8bb-11e8-9bb0-b2c10232ffa2.PNG)
+
 **current chart**
 ![plot](https://user-images.githubusercontent.com/40913019/47537046-82381e80-d8bb-11e8-801a-4c02e3cb9de7.PNG)
+
 **energy visualisation**
 ![energy](https://user-images.githubusercontent.com/40913019/47537042-7ea49780-d8bb-11e8-9483-c90ccb3db7ec.PNG)
-**Seting mode**
+
+**Setting mode**
 ![scenario](https://user-images.githubusercontent.com/40913019/47537047-86fcd280-d8bb-11e8-8602-6567910da129.PNG)
+
 ## Authors
 * **Fathi Benchaabene** ``mail:fathibch94@gmail.com``
 * **Zahra Daly** ``zahra.daly@ieee.org``
