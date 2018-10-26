@@ -6,4 +6,21 @@ In order to control the consumption of home electrical energy, this project allo
 ## What is kivy    
 Kivy is a complete framework for creating new interfaces like multitouch applications. Developed in **Python / Cython / OpenGL ES 2** and under LGPL license, this Framework has the ability to run on **Windows, MacOSX, Linux, Android (iOS in development)**.
 ## How to Run the Application
-once downloading the zip file from the repository
+once downloading the zip file from the repository https://github.com/fethibch/Python-kivy-desktop-app.git 
+* download Python3.6
+* with ``pip install`` from the command line download all packages needed for the application
+* install kivy https://kivy.org/doc/stable/installation/installation-windows.html
+* **pip install httplib2** for the HTTP communication with the cloud server
+* **pip install  serial** for the communication with the arduino board throw serial port
+* **pip install  numpy , pip install  matplotlib ,  pip install drawnow** for plotting the charts
+```
+if the application doesn't run log into <<main.py>> and download packages missed from the import session
+```
+for the simulation plug an arduino board in the desktop and send random float values in the serial monitor
+```
+* In the file main.py you will find this instruction arduinoData = serial.Serial('com10', 9600)
+in my case the arduino board in plugged on port10 and the baud rate is 9600,so make the necessary changes
+```
+**the application will run properly now**
+## Screenshots of Demo
+
